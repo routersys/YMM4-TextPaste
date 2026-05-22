@@ -9,6 +9,8 @@
 YukkuriMovieMaker4（YMM4）上で動作する、**アイテムの上にテキストを描画・合成する映像エフェクトプラグイン**です。
 Direct2D の `AffineTransform2D`・`ColorMatrix`・`Composite` エフェクトチェーンを用いてテキストの描画・変形・合成処理を行います。
 
+![Image](https://github.com/routersys/YMM4-TextPaste/blob/main/docs/TextPaste.png)
+
 ---
 
 ## 目次
