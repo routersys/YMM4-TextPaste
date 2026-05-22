@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>ja-jp</value></data>
+<data name="TextPasteEffectDefaultName" xml:space="preserve"><value>テキストの貼り付け</value></data>
+<data name="TextPasteEffectGroupName_Draw" xml:space="preserve"><value>描画</value></data>
+<data name="TextPasteEffectGroupName_Display" xml:space="preserve"><value>表示</value></data>
+<data name="TextPasteEffectGroupName_Text" xml:space="preserve"><value>テキスト</value></data>
+<data name="TextPasteEffectDisplayName_X" xml:space="preserve"><value>X</value></data>
+<data name="TextPasteEffectDisplayName_Y" xml:space="preserve"><value>Y</value></data>
+<data name="TextPasteEffectDisplayName_Z" xml:space="preserve"><value>Z</value></data>
+<data name="TextPasteEffectDisplayName_Opacity" xml:space="preserve"><value>不透明度</value></data>
+<data name="TextPasteEffectDisplayName_Zoom" xml:space="preserve"><value>拡大率</value></data>
+<data name="TextPasteEffectDisplayName_Rotation" xml:space="preserve"><value>回転角</value></data>
+<data name="TextPasteEffectDisplayName_DisplayMode" xml:space="preserve"><value>表示方法</value></data>
+<data name="TextPasteEffectDisplayName_Text" xml:space="preserve"><value>テキスト</value></data>
+<data name="TextPasteEffectDisplayName_Font" xml:space="preserve"><value>フォント</value></data>
+<data name="TextPasteEffectDisplayName_Size" xml:space="preserve"><value>サイズ</value></data>
+<data name="TextPasteEffectDisplayName_Color" xml:space="preserve"><value>文字色</value></data>
+<data name="TextPasteEffectDisplayName_CharSpacing" xml:space="preserve"><value>文字間隔</value></data>
+<data name="TextPasteEffectDisplayName_LineHeight" xml:space="preserve"><value>行の高さ</value></data>
+<data name="TextPasteEffectDiscription_X" xml:space="preserve"><value>描画位置のX座標</value></data>
+<data name="TextPasteEffectDiscription_Y" xml:space="preserve"><value>描画位置のY座標</value></data>
+<data name="TextPasteEffectDiscription_Z" xml:space="preserve"><value>描画位置のZ座標</value></data>
+<data name="TextPasteEffectDiscription_Opacity" xml:space="preserve"><value>描画の不透明度</value></data>
+<data name="TextPasteEffectDiscription_Zoom" xml:space="preserve"><value>描画の拡大率</value></data>
+<data name="TextPasteEffectDiscription_Rotation" xml:space="preserve"><value>描画の回転角</value></data>
+<data name="TextPasteEffectDiscription_DisplayMode" xml:space="preserve"><value>テキストの表示方法</value></data>
+<data name="TextPasteEffectDiscription_Text" xml:space="preserve"><value>貼り付けるテキスト</value></data>
+<data name="TextPasteEffectDiscription_Font" xml:space="preserve"><value>フォント</value></data>
+<data name="TextPasteEffectDiscription_Size" xml:space="preserve"><value>文字の大きさ</value></data>
+<data name="TextPasteEffectDiscription_Color" xml:space="preserve"><value>文字の色</value></data>
+<data name="TextPasteEffectDiscription_CharSpacing" xml:space="preserve"><value>文字と文字の間隔</value></data>
+<data name="TextPasteEffectDiscription_LineHeight" xml:space="preserve"><value>行の高さの割合</value></data>
+<data name="TextPasteEffectUnit_Pixels" xml:space="preserve"><value>px</value></data>
+<data name="TextPasteEffectUnit_Percent" xml:space="preserve"><value>%</value></data>
+<data name="TextPasteEffectUnit_Degrees" xml:space="preserve"><value>°</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Replace" xml:space="preserve"><value>完全置換</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_InsideArea" xml:space="preserve"><value>領域内に表示</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_AboveArea" xml:space="preserve"><value>領域上に重ねて表示</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Overlay" xml:space="preserve"><value>そのまま重ねて表示</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_Replace" xml:space="preserve"><value>元アイテムを消してテキストのみを表示</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_InsideArea" xml:space="preserve"><value>元アイテムの領域内にのみテキストを表示</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_AboveArea" xml:space="preserve"><value>元アイテムを維持しその上の領域にテキストを表示</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_Overlay" xml:space="preserve"><value>元アイテムを維持したままその上にテキストを表示</value></data>
+<data name="TextPasteEffectDisplayName_BasePoint" xml:space="preserve"><value>文字揃え位置</value></data>
+<data name="TextPasteEffectDiscription_BasePoint" xml:space="preserve"><value>文字の揃え位置を設定します</value></data>
+</root>

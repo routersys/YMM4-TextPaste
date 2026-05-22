@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>en-us</value></data>
+<data name="TextPasteEffectDefaultName" xml:space="preserve"><value>Paste text</value></data>
+<data name="TextPasteEffectGroupName_Draw" xml:space="preserve"><value>Drawing</value></data>
+<data name="TextPasteEffectGroupName_Display" xml:space="preserve"><value>Display</value></data>
+<data name="TextPasteEffectGroupName_Text" xml:space="preserve"><value>Text</value></data>
+<data name="TextPasteEffectDisplayName_X" xml:space="preserve"><value>X</value></data>
+<data name="TextPasteEffectDisplayName_Y" xml:space="preserve"><value>Y</value></data>
+<data name="TextPasteEffectDisplayName_Z" xml:space="preserve"><value>Z</value></data>
+<data name="TextPasteEffectDisplayName_Opacity" xml:space="preserve"><value>Opacity</value></data>
+<data name="TextPasteEffectDisplayName_Zoom" xml:space="preserve"><value>Zoom</value></data>
+<data name="TextPasteEffectDisplayName_Rotation" xml:space="preserve"><value>Rotation</value></data>
+<data name="TextPasteEffectDisplayName_DisplayMode" xml:space="preserve"><value>Display method</value></data>
+<data name="TextPasteEffectDisplayName_Text" xml:space="preserve"><value>Text</value></data>
+<data name="TextPasteEffectDisplayName_Font" xml:space="preserve"><value>Font</value></data>
+<data name="TextPasteEffectDisplayName_Size" xml:space="preserve"><value>Size</value></data>
+<data name="TextPasteEffectDisplayName_Color" xml:space="preserve"><value>Text color</value></data>
+<data name="TextPasteEffectDisplayName_CharSpacing" xml:space="preserve"><value>Character spacing</value></data>
+<data name="TextPasteEffectDisplayName_LineHeight" xml:space="preserve"><value>Line height</value></data>
+<data name="TextPasteEffectDiscription_X" xml:space="preserve"><value>X coordinate of drawing position</value></data>
+<data name="TextPasteEffectDiscription_Y" xml:space="preserve"><value>Y coordinate of drawing position</value></data>
+<data name="TextPasteEffectDiscription_Z" xml:space="preserve"><value>Z coordinate of drawing position</value></data>
+<data name="TextPasteEffectDiscription_Opacity" xml:space="preserve"><value>Opacity of drawing</value></data>
+<data name="TextPasteEffectDiscription_Zoom" xml:space="preserve"><value>Zoom of drawing</value></data>
+<data name="TextPasteEffectDiscription_Rotation" xml:space="preserve"><value>Rotation angle of drawing</value></data>
+<data name="TextPasteEffectDiscription_DisplayMode" xml:space="preserve"><value>Display method of the text</value></data>
+<data name="TextPasteEffectDiscription_Text" xml:space="preserve"><value>Text to paste</value></data>
+<data name="TextPasteEffectDiscription_Font" xml:space="preserve"><value>Font</value></data>
+<data name="TextPasteEffectDiscription_Size" xml:space="preserve"><value>Font size</value></data>
+<data name="TextPasteEffectDiscription_Color" xml:space="preserve"><value>Text color</value></data>
+<data name="TextPasteEffectDiscription_CharSpacing" xml:space="preserve"><value>Spacing between characters</value></data>
+<data name="TextPasteEffectDiscription_LineHeight" xml:space="preserve"><value>Line height ratio</value></data>
+<data name="TextPasteEffectUnit_Pixels" xml:space="preserve"><value>px</value></data>
+<data name="TextPasteEffectUnit_Percent" xml:space="preserve"><value>%</value></data>
+<data name="TextPasteEffectUnit_Degrees" xml:space="preserve"><value>°</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Replace" xml:space="preserve"><value>Replace</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_InsideArea" xml:space="preserve"><value>Inside area</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_AboveArea" xml:space="preserve"><value>Above area</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Overlay" xml:space="preserve"><value>Overlay</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_Replace" xml:space="preserve"><value>Replace the original item with the text only</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_InsideArea" xml:space="preserve"><value>Show the text only within the area of the original item</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_AboveArea" xml:space="preserve"><value>Keep the original item and show the text on top of its area</value></data>
+<data name="TextPasteEffectEnum_DisplayMode_Discription_Overlay" xml:space="preserve"><value>Keep the original item and overlay the text on top</value></data>
+<data name="TextPasteEffectDisplayName_BasePoint" xml:space="preserve"><value>Text alignment</value></data>
+<data name="TextPasteEffectDiscription_BasePoint" xml:space="preserve"><value>Sets the text alignment</value></data>
+</root>
