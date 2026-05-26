@@ -210,17 +210,20 @@ namespace TextPaste
 
             foreach (var output in renderingTextSource.Outputs)
             {
-                dc.Transform = Matrix3x2.CreateTranslation(output.DrawingOffset.X, output.DrawingOffset.Y);
-                if (output.DrawingEffect is not null)
+                var bounds = dc.GetImageLocalBounds(output.Output);
+                var textHeight = bounds.Bottom - bounds.Top;
+                var yOffset = item.BasePoint switch
                 {
-                    output.DrawingEffect.SetInput(output.Output);
-                    output.DrawingEffect.Update(effectDescription);
-                    dc.DrawImage(output.DrawingEffect.Output);
-                }
-                else
-                {
-                    dc.DrawImage(output.Output);
-                }
+                    BasePoint.LeftTop or BasePoint.CenterTop or BasePoint.RightTop
+                    or BasePoint.VTopRight or BasePoint.VTopCenter or BasePoint.VTopLeft
+                        => output.DrawingOffset.Y - textHeight,
+                    BasePoint.LeftBottom or BasePoint.CenterBottom or BasePoint.RightBottom
+                    or BasePoint.VBottomRight or BasePoint.VBottomCenter or BasePoint.VBottomLeft
+                        => output.DrawingOffset.Y + textHeight,
+                    _ => output.DrawingOffset.Y
+                };
+                dc.Transform = Matrix3x2.CreateTranslation(output.DrawingOffset.X, yOffset);
+                dc.DrawImage(output.Output);
             }
 
             dc.Transform = Matrix3x2.Identity;
